@@ -1,16 +1,14 @@
-# riverpod_project
+# Simple Todo App (Flutter & Riverpod)
 
-A new Flutter project.
+A simple todo app demonstrating local storage with SharedPreferences and state management with Riverpod.
+Features
 
-## Getting Started
+    Display Todos: View a list of todos.
+    Add, Update, Delete: Manage todos with basic CRUD operations.
+    Search Bar: Filter todos by title.
+    Categorize Per Day: Organize todos by day.
 
-This project is a starting point for a Flutter application.
+Key Components
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    TodoItemsNotifier: Manages todo state and syncs with SharedPreferences.
+    SharedPreferences: Stores todo data persistently.
